@@ -1,0 +1,54 @@
+{
+  "source_sha256": {
+    "Parcel_Digest_2025.csv": "3362378434edaf935e1edeac33f6406e035a6e8042cf619c7aeaec6ced29cf9b",
+    "Parcel_Digest_2025.geojson": "38dab502287cbfb73706dbbaf13e179872e62eb1dab093ff41aacceab9d63a35",
+    "data\\Parcel_Digest_2025.csv": "3362378434edaf935e1edeac33f6406e035a6e8042cf619c7aeaec6ced29cf9b",
+    "data\\Parcel_Digest_2025.geojson": "38dab502287cbfb73706dbbaf13e179872e62eb1dab093ff41aacceab9d63a35",
+    "data\\September 21, 2024-October 16, 2026 CFS.xlsx": "d37a50e7980fb4458aa007508695b7c17d49858b1219828d6c43abb8fc382494",
+    "data\\Savannah Signals and Codes.pdf": "b6cd108551d45133a0d03d3bc69d676eeb393121d76212d0ee2dfefe39e90f57"
+  },
+  "parcel_outputs": [
+    {
+      "source": "Parcel_Digest_2025.csv",
+      "output": "parcel_digests\\Parcel_Digest_2025.csv",
+      "records": 125326
+    },
+    {
+      "source": "Parcel_Digest_2025.geojson",
+      "output": "parcel_digests\\Parcel_Digest_2025.geojson",
+      "records": 125326
+    },
+    {
+      "source": "data\\Parcel_Digest_2025.csv",
+      "output": "parcel_digests\\data\\Parcel_Digest_2025.csv",
+      "records": 125326
+    },
+    {
+      "source": "data\\Parcel_Digest_2025.geojson",
+      "output": "parcel_digests\\data\\Parcel_Digest_2025.geojson",
+      "records": 125326
+    }
+  ],
+  "cfs_source": "data\\September 21, 2024-October 16, 2026 CFS.xlsx",
+  "source_calls": 393002,
+  "kept_calls": 108191,
+  "review_calls": 42604,
+  "excluded_calls": 242207,
+  "dispositions": {
+    "excluded:traffic_or_other_stop": 63478,
+    "excluded:matched_only_nonresidential_or_nonadjoining_commercial": 57083,
+    "kept:residential_or_commercial_with_shared_residential_boundary": 108191,
+    "excluded:road_traffic_or_non_home_activity": 118922,
+    "review:unresolved_address_or_intersection": 42604,
+    "excluded:no_number_or_intersection": 2724
+  },
+  "commercial_parcels_adjoining_residential": 1658,
+  "original_hashes_verified": true,
+  "packages": {
+    "shapely": "2.2.0",
+    "pyproj": "3.8.0",
+    "usaddress": "see installed metadata",
+    "rapidfuzz": "3.14.6",
+    "openpyxl": "3.1.5"
+  }
+}

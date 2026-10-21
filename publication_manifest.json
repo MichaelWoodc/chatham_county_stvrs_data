@@ -1,0 +1,83 @@
+{
+  "source_directory": "data/normalized_data",
+  "files": [
+    {
+      "path": "CFS_normalized.part-001.csv",
+      "bytes": 41943108,
+      "sha256": "d7480c32aaa5d979707fdc595988d997dd3fb270d20e78b736b8ae50c828b793",
+      "rows": 41914
+    },
+    {
+      "path": "CFS_normalized.part-002.csv",
+      "bytes": 41943460,
+      "sha256": "df508c739576de846fd78b1999ff668eeaacf35a57a5b12e054c03670326504d",
+      "rows": 42745
+    },
+    {
+      "path": "CFS_normalized.part-003.csv",
+      "bytes": 23070294,
+      "sha256": "c9f385b0e63d0947b533c178ac0f9ccf649e3b2d9d74c54888951d59e4f982b1",
+      "rows": 23532
+    },
+    {
+      "path": "parcel_digests/Parcel_Digest_2025.part-001.csv",
+      "bytes": 41943060,
+      "sha256": "98cdffddccbacb291d2ba2da9e79ac8993c6f3eb1cb47f4327ff0124caa33c3e",
+      "rows": 109836
+    },
+    {
+      "path": "parcel_digests/Parcel_Digest_2025.part-002.csv",
+      "bytes": 5519295,
+      "sha256": "46bff106c93116a591ba22dd5e7658f82c6a1a711dab71c966f413f2f9e4d0d4",
+      "rows": 14343
+    },
+    {
+      "path": "parcel_digests/Parcel_Digest_2025.geojson.gz",
+      "bytes": 35610280,
+      "sha256": "4f4658c2aaf5f7dd1002b25ddd2870707b4d27974f946396e84f7ca91f881759",
+      "rows": 124179
+    },
+    {
+      "path": "parcel_classification.part-001.csv",
+      "bytes": 6183724,
+      "sha256": "9113f0bbf16a0fa4bcb2512a6f116b57b4220145ad336243ec2e5aa3afcd3871",
+      "rows": 124171
+    },
+    {
+      "path": "source_summary.json",
+      "bytes": 2155,
+      "sha256": "eb2229c0f6ae66a7e2d0ebbc2b003c826891148fe3363a4dec03a2886bd20c46"
+    },
+    {
+      "path": "source_validation.json",
+      "bytes": 513,
+      "sha256": "6eb61ac32bad313eba2809e414201c71c39e279acf6d48966f1bd6c3efdee65e"
+    }
+  ],
+  "omissions": {
+    "CFS_needs_review.csv": "All 42,604 unresolved call records omitted.",
+    "CFS_excluded.csv": "All 242,207 excluded call records omitted.",
+    "normalized_workbook": "Omitted because it contains review records and candidate text.",
+    "parcel_records": "Mailing statuses normalized and repeated_labels_preserved included; blank and ambiguous rows omitted.",
+    "duplicate_parcel_mirrors": "Byte-identical parcel_digests/data copies represented once.",
+    "audit_and_overflow_files": "Review audit and workbook overflow artifacts omitted.",
+    "raw_sources_and_prior_analyses": "Outside the normalized publication scope."
+  },
+  "cfs": {
+    "published": 108191
+  },
+  "parcel_mailing_status_counts": {
+    "normalized": 123875,
+    "blank": 875,
+    "repeated_labels_preserved": 304,
+    "ambiguous_parse_preserved": 272
+  },
+  "parcels": {
+    "published": 124179,
+    "omitted": 1147
+  },
+  "parcel_classification": {
+    "published": 124171,
+    "omitted": 1134
+  }
+}

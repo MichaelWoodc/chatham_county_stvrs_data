@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "verified_source_rows": 393002,
+  "dispositions": {
+    "kept": 108191,
+    "review": 42604,
+    "excluded": 242207
+  },
+  "parcel_nonmailing_fields_and_geometry_preserved": true,
+  "workbook_zip_valid": true,
+  "long_excel_cells_preserved": 125,
+  "retained_match_methods": {
+    "exact_address": 92216,
+    "intersection_100m_candidates": 15416,
+    "intersection_frontage_40m_candidates": 43,
+    "street_variant_candidates": 516
+  },
+  "unique_exact_PIN_calls": 86419
+}
